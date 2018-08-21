@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In Class To Do List</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="action.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+    <header class="headbar">
+        <div class="headerLeft">
+            <span>Dyllen Holm</span>
+        </div>
+
+        <div class="headerRight">
+        </div>
+
+    </header>
+
+    <div class="main">
+
+        <div class="taskHeaderInput">
+            <div class="taskHeaderInputLeft">
+                <input type="text" id="myInput" placeholder="Start a New List">
+            </div>
+            <div class="taskHeaderInputRight">
+                <a class="bluebtn" onclick="addtheItem()">Add List</a>
+            </div>
+        </div>
+
+        <div class="todolistHeaderContainer">
+            <div id="newList" class="todolistHeader">
+                <span class="listlabel">To Do List</span>
+            </div>
+        </div>
+
+        <div class="listContainer">
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
